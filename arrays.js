@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function accessElementInArray(c){
-  return c[];
+function accessElementInArray(c, b){
+  return c[b];
 }
 
 accessElementInArray();
