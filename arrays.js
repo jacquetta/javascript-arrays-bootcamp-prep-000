@@ -36,11 +36,15 @@ function destructivelyAddElementToEndOfArray(c, d){
 destructivelyAddElementToEndOfArray();
 
 
+
+
+
 function destructivelyRemoveElementFromBeginningOfArray(a){
   return a.shift();
 }
-
 destructivelyRemoveElementFromBeginningOfArray();
+
+
 
 function destructivelyRemoveElementFromEndOfArray(b){
   return b.pop();
