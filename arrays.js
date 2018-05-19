@@ -12,16 +12,22 @@ function addElementToBeginningOfArray(a, b){
 }
 addElementToBeginningOfArray();
 
+
+
 function destructivelyAddElementToBeginningOfArray(a, b){
   return  a.unshift(b);
 
 }
 destructivelyAddElementToBeginningOfArray();
 
+
+
 function addElementToEndOfArray(c, d) {
   return [...c, d];
 }
 addElementToEndOfArray();
+
+
 
 function destructivelyAddElementToEndOfArray(c, d){
   return c.push(d);
