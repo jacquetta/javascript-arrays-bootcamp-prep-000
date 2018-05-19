@@ -52,18 +52,18 @@ removeElementFromEndOfArray();
 // function addElementToBeginningOfArray(a, b){
 //   brandArray = a.unshift(b);;
 //   return brandArray;
-// 
-// 
+//
+//
 // }
 // addElementToBeginningOfArray(meArray,);
-// 
+//
 // var nextArray =[];
 // function destructivelyAddElementToBeginningOfArray(a, b){
 //     return a.unshift(b);
-// 
+//
 // }
 // destructivelyAddElementToBeginningOfArray(nextArray, );
-// 
+//
 // var getArray = [];
 // var updateArray;
 // function addElementToEndOfArray(a, b){
@@ -71,7 +71,7 @@ removeElementFromEndOfArray();
 //   return updateArray;
 // }
 // addElementToEndOfArray(getArray,);
-// 
+//
 // var lastArray = [];
 // function destructivelyAddElementToEndOfArray(){
 //   return a.push(b);
