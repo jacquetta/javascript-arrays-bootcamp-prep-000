@@ -39,10 +39,11 @@ destructivelyAddElementToEndOfArray();
 
 
 
-function destructivelyRemoveElementFromBeginningOfArray(a){
-  return a.shift();
+function removeElementFromBeginningOfArray(a){
+  return a.slice();
 }
-destructivelyRemoveElementFromBeginningOfArray();
+removeElementFromBeginningOfArray();
+
 
 
 
@@ -50,6 +51,9 @@ function destructivelyRemoveElementFromEndOfArray(b){
   return b.pop();
 }
 destructivelyRemoveElementFromEndOfArray();
+
+
+
 
 function removeElementFromEndOfArray(j) {
   return j.slice(0, j.length - 1);
