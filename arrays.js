@@ -1,11 +1,10 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function accessElementInArray(c){
-  return c[3];
+  return c[];
 }
 
-var cat = [];
-accessElementInArray(cat);
+accessElementInArray();
 
 
 function addElementToBeginningOfArray(a, b){
