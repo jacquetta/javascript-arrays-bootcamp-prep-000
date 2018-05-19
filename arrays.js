@@ -1,5 +1,12 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
+function accessElementInArray(c){
+  return c[3];
+}
+
+var cat = [];
+accessElementInArray(cat);
+
 
 var meArray = [];
 var brandArray;
@@ -31,11 +38,3 @@ function destructivelyAddElementToEndOfArray(){
   return a.push(b);
 }
 destructivelyAddElementToEndOfArray(lastArray,);
-
-
-function accessElementInArray(c){
-  return c[3];
-}
-
-var cat = [];
-accessElementInArray(cat);
